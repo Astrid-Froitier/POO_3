@@ -15,13 +15,13 @@ $motorway->addVehicle('Moto');
 $motorway->addVehicle('Skateboard');
 var_dump($motorway->getCurrentVehicles());
 
-$pedestrian = new PedestrianWay(4,50);
+$pedestrian = new PedestrianWay(1,10);
 $pedestrian->addVehicle('Bike');
 $pedestrian->addVehicle('Moto');
 $pedestrian->addVehicle('Skateboard');
 var_dump($pedestrian->getCurrentVehicles());
 
-$residential = new ResidentialWay(4,50);
+$residential = new ResidentialWay(2,50);
 $residential->addVehicle('Bike');
 $residential->addVehicle('Moto');
 $residential->addVehicle('Skateboard');
